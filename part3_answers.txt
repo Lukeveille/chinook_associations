@@ -1,0 +1,7 @@
+1. Album.find_by(title: "Vinicius De Moraes").tracks.all
+2. Artist.find_by(name: "Philip Glass Ensemble").albums.all
+3. Playlist.find_by(name: "Brazilian Music").tracks.all
+4. Genre.find_by(name: "Jazz").tracks.all
+5. Track.find_by(name: "My Time After Awhile").genre
+6. track.media_type
+7. track.album
