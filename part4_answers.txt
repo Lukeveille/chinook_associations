@@ -1,0 +1,6 @@
+1. Artist has_many :tracks through: :albums
+2. Playlist has_many :genres, through: :tracks
+3. Albums has_many :playlists, through: :tracks
+4. Playlist has_many :media_types, through: :tracks
+5. Artist has_many :media_types, through: :albums, through: :tracks
+6. MediaType has_many :genres, through: :tracks
